@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        table, th, td {
+            border-collapse: collapse;
+            border: 2px solid black;
+            font-family: Arial, Helvetica, sans-serif;
+            padding: 5px;
+            text-align: center;
+            margin: auto;
+        }
+
+        .theader {
+            background-color: #69aeda;
+            color: black;
+        }
+
+        tbody tr:nth-child(even) {
+            background-color: #97e0dc;
+            color: black;
+        }
+
+        table {
+            width: 70%;
+        }
+
+        .serial {
+            width: 20px;
+        }
+
+        .name {
+            text-align: left;
+        }
+
+        #t-header {
+            text-align: center;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            margin-top: 3em;
+            color: red;
+        }
+
+        caption {
+            font-weight: 600;
+            font-size: 25px;
+            margin: 20px 0 15px;
+        }
+    </style>
+
+    <table>
+        <h1 id="t-header">
+			Scoresheet for St. Benedict high school SS2 class. <br />
+			Prepared by Class Teacher, Mr Ade.
+		</h1>
+
+        <caption>Scoresheet</caption>
+        <thead>
+            <tr class="theader">
+                <th class="heads serial" rowspan="2">Serial Number</th>
+                <th class="heads" rowspan="2">Students</th>
+                <th class="heads" colspan="5">Subjects</th>
+                <th class="heads" rowspan="2" colspan="2">Total Scores</th>
+            </tr>
+        
+            <tr class="theader">
+                <th class="heads">Mathematics</th>
+                <th class="heads">English</th>
+                <th class="heads">Physics</th>
+                <th class="heads">Chemistry</th>
+                <th class="heads">Biology</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr class="trow-data">
+                <td class="serial">1</td>
+                <td class="name">AdeKunle</td>
+                <td class="score">72</td>
+                <td class="score">43</td>
+                <td class="score">78</td>
+                <td class="score">73</td>
+                <td class="score">37</td>
+                <td class="total">303</td>
+            </tr>
+            <tr class="trow-data">
+                <td class="serial">2</td>
+                <td class="name">John</td>
+                <td class="score">42</td>
+                <td class="score">64</td>
+                <td class="score">70</td>
+                <td class="score">55</td>
+                <td class="score">58</td>
+                <td class="total">289</td>
+            </tr>
+            <tr class="trow-data">
+                <td class="serial">3</td>
+                <td class="name">Peter</td>
+                <td class="score">62</td>
+                <td class="score">40</td>
+                <td class="score">73</td>
+                <td class="score">75</td>
+                <td class="score">99</td>
+                <td class="total">349</td>
+            </tr>
+            <tr class="trow-data">
+                <td class="serial">4</td>
+                <td class="name">Rukayat</td>
+                <td class="score">77</td>
+                <td class="score">75</td>
+                <td class="score">78</td>
+                <td class="score">75</td>
+                <td class="score">82</td>
+                <td class="total">387</td>
+            </tr>
+            <tr class="trow-data">
+                <td class="serial">5</td>
+                <td class="name">Paul</td>
+                <td class="score">72</td>
+                <td class="score">40</td>
+                <td class="score">72</td>
+                <td class="score">70</td>
+                <td class="score">97</td>
+                <td class="total">351</td>
+            </tr>
+            <tr class="trow-data">
+                <td class="serial">6</td>
+                <td class="name">Victor</td>
+                <td class="score">76</td>
+                <td class="score">64</td>
+                <td class="score">48</td>
+                <td class="score">99</td>
+                <td class="score">37</td>
+                <td class="total">324</td>
+            </tr>
+            <tr class="trow-data">
+                <td class="serial">7</td>
+                <td class="name">John</td>
+                <td class="score">62</td>
+                <td class="score">54</td>
+                <td class="score">78</td>
+                <td class="score">75</td>
+                <td class="score">64</td>
+                <td class="total">333</td>
+            </tr>
+            <tr class="trow-data">
+                <td class="serial">8</td>
+                <td class="name">Doe</td>
+                <td class="score">52</td>
+                <td class="score">84</td>
+                <td class="score">48</td>
+                <td class="score">85</td>
+                <td class="score">27</td>
+                <td class="total">296</td>
+            </tr>
+            <tr class="trow-data">
+                <td class="serial">9</td>
+                <td class="name">Stephen</td>
+                <td class="score">92</td>
+                <td class="score">44</td>
+                <td class="score">78</td>
+                <td class="score">65</td>
+                <td class="score">61</td>
+                <td class="total">340</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
